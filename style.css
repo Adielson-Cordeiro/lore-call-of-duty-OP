@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #02031a;
+}
+
+nav {
+    background-color: #021b2b;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Fugaz One", serif;
+    align-items: center;
+    color: aliceblue;
+    height: 50px;
+    overflow: hidden;
+}
+
+.logo {
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.nav-itens {
+    list-style: none;
+    display: flex;
+}
+
+.nav-itens li a {
+    display: block;
+    color: aliceblue;
+    padding-left: 20px;
+    text-decoration: none;
+    transition: 0.2s; 
+}
+
+.nav-itens:hover li a {
+    opacity: 0.3;
+}
+
+.nav-itens li a:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+.title {
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+    color: #ebdfcc;
+    font-family: "Fugaz One", serif;
+    font-size: 16px;
+}
+
+.leg-g {
+    display: inline-block;
+    position: absolute;
+    font-family: "Fugaz One", serif;
+    color: #ebdfcc;
+    bottom: -30px;
+    left: 70px;
+    width: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.leg-p {
+    display: inline-block;
+    position: absolute;
+    font-family: "Fugaz One", serif;
+    color: #ebdfcc;
+    bottom: -30px;
+    left: 390px;
+    width: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.leg-s {
+    display: inline-block;
+    position: absolute;
+    font-family: "Fugaz One", serif;
+    color: #ebdfcc;
+    bottom: -30px;
+    left: 690px;
+    width: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.leg-gz {
+    display: inline-block;
+    position: absolute;
+    font-family: "Fugaz One", serif;
+    color: #ebdfcc;
+    bottom: -30px;
+    left: 1015px;
+    width: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+   display: flex;
+   position: relative;
+   justify-content: center;
+}
+
+.operadores {
+    margin-top: 40px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.operadores img{
+    display: inline;
+    width: 300px;
+    height: auto;
+    border-radius: 15%;
+    border: 2px solid #b10c43;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: 0.2s;
+}
+
+.operadores img:hover {
+    transform: scale(1.2);
+}
+
+.sub-titulo{
+    font-family: "Fugaz One", serif;
+    position: relative;
+    display: flex;
+    margin-top: 65px;
+    justify-content: center;
+    color: #ebdfcc;
+}
+
+.linha{
+    border: none;
+    margin-top: 30px;
+    border-bottom: 2px solid #b10c43;
+}
+
+.logo-141{
+    display: table-cell;
+    float: left;
+    width: 411px;
+    height: 411px;
+    left: 20px;
+}
+
+.content-141{
+    float: left;
+    display: table-cell;
+}
+
+.texto-141{
+    display: table-cell;
+    font-size: 15pt;
+    float: left;
+    font-family: "Fugaz One", serif;
+    color: #ebdfcc;
+    width: 800px;
+    margin-left: 30px;
+    margin-top: 80px;
+}
